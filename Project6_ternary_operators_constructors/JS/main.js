@@ -43,13 +43,13 @@ function Padres_Function() {
     " plays " + Fernando.Position + " for the San Diego Padres."
 }
 
-function Stadiums(name, team, capacity) {
+function Stadiums(name, team, capacity) {                          // how is this different from creating a class?
     this.Name = name;
     this.Team = team;
     this.Capacity = capacity;
 }
 
-function Subtract_Function() {
+function Subtract_Function() {                                             // really don't grasp this concept at all
     document.getElementById("Nested_Function").innerHTML = subtract();
     function subtract() {
         var Starting_Point = 5;
