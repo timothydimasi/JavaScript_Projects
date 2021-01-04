@@ -3,9 +3,8 @@ function add_one() {
     document.write(x + 1 + "<br>");
 }
 
-function add_two() {
-    var x = 5;
-    document.write(x + 2 + "<br>");
+function add_two() {                     //removed the variable assignment to create an error
+    console.log(x + 2 + "<br>");         //took out document.write() for console.log()
 }
 
 add_one();
@@ -35,7 +34,7 @@ function Time_Function() {
     if (Time < 12 == Time > 0) {
         Reply = "It is morning time.";
     }
-    else if (Time > 12 == Time < 18) {
+    else if (Time > 12 == Time < 18) {      //why can't this be phrased like '12 < Time < 18'?
         Reply = "It is afternoon.";
     }
     else {
