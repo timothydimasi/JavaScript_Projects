@@ -1,0 +1,76 @@
+body {
+    background-color: #C3534B;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #CDC26A;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #F4EEDD;
+}
+
+div {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: #F4EEDD;
+}
+
+#menuBG {
+    width: 400px;
+    height: 470px;
+    margin: 10px auto;
+}
+
+#frmMenu {
+    width: 600px;        /* had to change this from 400 to 600 to accomodate the new "vegetables" section */
+    height: 200px;
+}
+
+#totalPrice {
+    width: 200px;
+    height: 190px;
+    margin: 0 auto;
+    float:right;
+}
+
+.left {
+    width: 200px;
+    height: 200px;
+    float:left;
+}
+
+.right {                    /*this effects the class "menu right" and i'm not sure why since it excludes the word "menu */
+    width: 200px;
+    height: 200px;
+    float:right;
+}
+
+.center {
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+
+#showText {
+    width: 200px;
+    height: 190px;
+    margin: 0px auto;
+    float:left;
+}
+
+#cart {
+    top:0;
+    margin: 0px auto;
+    width: 400px;
+    height: 200px;
+}
+
+#btnOrder {
+    margin: 10px 0px 0px 150px;
+    width: 100px;
+    height: 40px;
+}
