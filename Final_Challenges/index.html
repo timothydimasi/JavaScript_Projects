@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/final_challenges.css">
+    <script src="JS/final_challenges.js" defer></script>
+</head>
+<body>
+
+    <!-- Part of the HTML bookmark challenge -->
+    <div class="topnav">
+        <a href=#fade-text>Text Fade</a>
+        <a href=#form-validate>Form Validation</a>
+        <a href=#image-zoom>Image Zoom</a>
+        <a href=#slideshow>Slideshow</a>
+    </div>
+
+    <h3>When clicked, the above links will scroll smoothly to their destinations</h3>
+    
+    <!-- This was for the "fade in" challenge as well as keyframes challenge -->
+    <h1 id="fade-text">Fade Text Challenge</h1>
+    <p style="font-size:8vw;">This is some text</p>
+
+    <!-- This is the form validation challenge -->
+    <h1 id="form-validate">Form Validation Challenge</h1>
+    <form name="myForm" onsubmit="validateForm()">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value=""><br><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value=""><br><br>
+        <label for="phone">Phone number:</label><br>
+        <input type="text" id="phone" name="phone" value=""><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- Popup Contact Form -->
+    <button class="open-button" onclick="openForm()">Open Form</button>
+    <div class="form-popup" id="myForm">
+        <form action="" class="form-container">
+            <h1>Login</h1>
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <button type="submit" class="btn">Login</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+    </div>
+    
+    <br>
+    <br>
+
+    <!-- Image Zoom Challenge -->
+    <h1 id="image-zoom">Image Zoom Challenge</h1>
+    <div id="img-container">
+        <img src="IMG/KT.png" alt="KT">
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <!-- Automatic Slideshow -->
+    <h1 id="slideshow">Automatic Slideshow</h1>
+    <div id="auto-slideshow" style="max-width:500px">
+        <img class="mySlides" src="IMG/slideshow_1.png" alt="Weathers">
+        <img class="mySlides" src="IMG/slideshow_2.png" alt="Hosmer">
+        <img class="mySlides" src="IMG/slideshow_3.png" alt="Grisham">
+    </div>
+
+    
+
+</body>
+</html>
